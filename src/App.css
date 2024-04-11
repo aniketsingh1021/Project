@@ -1,0 +1,256 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(230,239,255,255);
+}
+.bg{
+  background-color: white ;
+}
+#online_1{
+  color: rgba(0,232,0,255);
+  position: absolute;
+  top: 2.4rem;
+  right: 6rem;
+}
+.dp_1{
+  width: 2rem;
+  position: absolute;
+}
+#online_2{
+  color: rgba(0,232,0,255);
+  position: absolute;
+  top: 4.7rem;
+  right: 24.5rem;
+}
+.main_bd{
+  position: absolute;
+  border-radius:40px ;
+  width: 30rem;
+  top: 5%;
+  left: 30%;
+  background-color: white;
+}
+.Navbar{
+  background-color: rgba(230,239,255,255);
+  display: flex;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: 10px;
+}
+.logo{
+  width: 6rem;
+  padding: 1rem;
+}
+.name{
+  padding: 1rem;
+  
+  /* display: flex; */
+  padding-left: 0rem;
+  color: Blue;
+}
+#angle{
+  font-size: 2em; /* Set the desired size here */
+  background-color: white;
+  padding: 1rem;
+  color: blue;
+  /* padding-top: 1.2rem; */
+}
+.online{
+  position: absolute;
+  padding: 2rem;
+  top:1.5rem; 
+  right: 0rem;
+  color: blue;
+}
+h3{
+  font-weight: normal;
+  padding-top: 2.5px;
+}
+.bracel{
+  width: 1.7rem;
+  position: absolute;
+  top: 2.8%;
+  right: 55%;
+}
+.fa-paperclip{
+  position: relative;
+  bottom: -1.3rem;
+  color: grey;
+  right: 2.8rem;
+}
+.left_msg{
+   margin-top: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 8rem;
+  padding: 1rem;
+  font-size: 19px;
+  background-color: rgba(230,239,255,255);
+  border-radius: 1rem; 
+}
+.left_time{
+  margin-left: 2rem;
+}
+.right_msg{
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 11rem;
+  padding: 1rem;
+  font-size: 19px;
+  background-color: #d5f8c2;
+  border-radius: 1rem; 
+}
+.right_time{
+  margin-left: 24.5rem;
+}
+.tag{
+  font-size:1.4rem;
+  /* font-weight: 500; */
+  color: grey;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+button{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-right: -0.9rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: blue;
+  border-color: blue;
+}
+.btn_coll{
+  margin-right: 3rem;
+}
+.clr_btn{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-right: -0.9rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: grey;
+  border-color: grey;
+  box-shadow: none;
+}
+.batch{
+  background-color:rgba(230,239,255,255) ;
+  border-radius: 1rem;
+  margin: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 8rem;
+}
+.product{
+  background-color: white;
+  margin: 1rem;
+  border-radius: 1rem;
+  display: inline-flex;
+  flex-direction: row;
+}
+.bag{
+  border-radius: 6px;
+  width: 6rem;
+  height: 4rem;
+  margin: 1rem;
+}
+.barcel_2{
+  width: 2.8rem;
+  padding-left: 1rem;
+  position: absolute;
+
+}
+#bag_row{
+  position: relative;
+  left: 7.8rem;
+  bottom: 1.2rem;
+  color: grey;
+}
+.bag_txt{
+  font-size: 15px;
+  font-weight: bold;
+}
+.bag_txt_1{
+  font-size: 15px;
+  padding-top: 1rem;
+  color: grey;
+  
+}
+.product_2{
+  padding-right: 3.5rem;
+  padding-top: 1rem;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+}
+.bag_txt_2{
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+.last_tag{
+  display: flex;
+}
+.tag_1{
+  font-size:1.4rem;
+  font-weight: 500;
+  color: grey;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+ position: absolute;
+ right: 8%;
+}
+.msg_sec{
+  background-color:rgba(230,239,255,255) ;
+  margin: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+input{
+  border-radius: 10px;
+  margin:10px;
+  margin-right: 0;
+  width: 24rem;
+  margin-left: 1.5rem;
+  height: 2rem;
+  font-size: large;
+  padding: 1.4rem;
+  padding-bottom: 1.7rem;
+  border-color: white;
+}
+.msg_sec_1{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+.about{
+  position: absolute;
+  left: 30%;
+  bottom:2%;
+  font-size: 18px;
+  color: grey;
+}
+.button_2{
+  background-color: blue;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 0.8rem;
+  margin-left: -0.5rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.8rem;
+  border-radius: 10px;
+}
+.bold{
+  font-weight: bold;
+  color: darkgrey;
+}
